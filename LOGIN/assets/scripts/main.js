@@ -94,7 +94,7 @@ document
     ) {
       var userName = document.querySelector("[name='fullname']").value.trim();
       window.localStorage.setItem("userName", userName);
-      window.location.href = "../../list.html";
+      window.location.href = "./list.html";
     } else {
       alert("Please fill in all fields.");
     }

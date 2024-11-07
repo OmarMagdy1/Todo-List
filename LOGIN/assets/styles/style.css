@@ -1,0 +1,160 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* begin nav bar  */
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 35px;
+}
+
+.navbarlogo {
+  display: flex;
+  align-items: center;
+}
+
+.navbarlogo img {
+  height: 40px;
+}
+
+.navbarlogo a {
+  text-decoration: none;
+  color: #828282;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 60px;
+}
+.navbar-date {
+  display: flex;
+}
+#liveDate {
+  color: #828282;
+  margin-right: 1rem;
+}
+#liveTime {
+  color: #828282;
+}
+/* end nav bar  */
+
+/* begin login section  */
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 250px;
+}
+.image-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 600px;
+  margin-top: 100px;
+}
+
+.form-section h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.form-section h1 img {
+  height: 40px;
+}
+
+.form-section form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-section label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #6358dc;
+}
+
+.form-section input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-section button {
+  width: 100%;
+  padding: 15px;
+  background-color: #6358dc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-section button:hover {
+  background-color: black;
+}
+
+.form-section p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.form-section p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-section p a:hover {
+  text-decoration: underline;
+}
+.password-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  width: 100%;
+  padding-right: 29px;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 40px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.password-wrapper img {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+}

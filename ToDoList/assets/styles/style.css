@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f4f4f4;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5rem;
+  background-color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-text {
+  font-weight: 900;
+  font-size: 46px;
+  color: #6358dc;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  margin-left: 1.5rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+.date {
+  display: flex;
+}
+#liveTime {
+  padding-left: 1rem;
+}
+.nav-bar .active {
+  color: #6165d7;
+}
+h1 {
+  margin: 3rem 0 1rem 10rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+h1 a {
+  color: #6358dc;
+}
+.new-task {
+  width: 1200px;
+  min-height: 500px;
+  background-color: white;
+  margin: auto;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+.new-task-p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+.new-task input {
+  width: 300px;
+  height: 40px;
+  border: 2px solid #ececec;
+  border-radius: 5px;
+}
+.add-task {
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6358dc;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.tasks-list-p {
+  margin-top: 2rem;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  height: 100px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 4px 10px 0 #9f919140;
+}
+.task-info {
+  display: flex;
+}
+.task-info p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #828282;
+}
+.task-state button {
+  width: 150px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+.state {
+  background-color: #59daa4;
+  color: white;
+}
+.complete {
+  background-color: #6358dc;
+}
+.complete-p {
+  text-decoration: line-through;
+}
+.complete-date {
+  display: none;
+}
+.delete {
+  background-color: #da5959;
+  color: white;
+  margin-left: 1rem;
+}
+.task-date {
+  margin-left: 3rem;
+}
+.task-state {
+  display: flex;
+}

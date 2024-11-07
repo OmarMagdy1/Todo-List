@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoApp Profile</title>
+    <link rel="stylesheet" href="./Assets/style5.css" />
+  </head>
+  <body>
+    <!-- Start Nav Bar -->
+    <div class="nav-bar">
+      <div class="logo">
+        <p class="logo-text">TodoApp</p>
+        <!-- <p>Login</p> -->
+        <a href="../ToDoList/index.html" class="active">Dashboard</a>
+        <a href="#">Profile</a>
+      </div>
+      <div class="date">
+        <p id="liveDate"></p>
+        <p id="liveTime"></p>
+      </div>
+    </div>
+    <!-- End Nav Bar -->
+
+    <div class="container">
+      <div class="profile-card" id="profile-card">
+        <div class="profile-theme">
+          <div class="profile-info">
+            <div class="profile-image">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/0591/2448/24ea06b45a25ff25dc1e21555961a34e?Expires=1724630400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ELVqkDtjRqbNqwDOOuuOZQaru6K0RD0H4b7LBJy5qBaa~NV-c8mDaFp9CoyU8PvF1v1ROb5EBsjgSma0bO77avjifxghAtZRLn~qzQACtBYz1lkxuILukn3ScLwlexa7iDKHfCqSg5H0gEXgxdux22j0ASeXxS~X5k9Ntdoyq7tXHqpAFBwj~~gcEpKgRMsPD4GrMW~cVfcVjVRqOjnd0JpRDDm00-4nRhMGOUzWEPxBgio-XQhT~OWX-qQ6NoZqARyAJN9cOjgrvX3h5lzd0VgBbcUZaLpmE91HrHW1GV6rgJ1OER6JBErq3l3EYvmrPJbLYO0EuRjzDJNITgNalA__"
+                alt="Profile Picture"
+              />
+            </div>
+            <div class="profile-details">
+              <h2></h2>
+              <p>Business Analyst</p>
+            </div>
+          </div>
+
+          <div class="theme-switcher">
+            <p>Change Theme Color:</p>
+            <div class="theme-options">
+              <span id="dark-theme" class="theme dark"></span>
+              <span id="light-theme" class="theme light"></span>
+            </div>
+          </div>
+        </div>
+        <div class="work-timer">
+          <p>Sign in / Sign out :</p>
+          <div class="timer-button">
+            <div class="timer">00:00</div>
+            <button id="start-btn">Start Work</button>
+            <button id="resume-btn">Take break</button>
+            <button id="stop-btn">Finish Work</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Assets/script5.js"></script>
+  </body>
+</html>
